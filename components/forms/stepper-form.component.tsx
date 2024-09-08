@@ -123,7 +123,7 @@ const StepperForm: FC<StepperForm> = ({ comic }) => {
           })
         );
         router.push({
-          pathname: "/success",
+          pathname: "/confirmacion-compra",
         });
       }
     });
