@@ -72,7 +72,7 @@ const PaymentForm: FC<PaymentFormProps> = ({
           <Stack direction="row" spacing={5}>
             <ControlledTextInput
               name="expDate"
-              label="Fecha expiración"
+              label="Fecha de expiración"
               regex={regexNumber}
               maxLength={4}
             />

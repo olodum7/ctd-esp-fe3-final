@@ -8,7 +8,6 @@ import Typography from "@mui/material/Typography";
 import { Box } from "@mui/material";
 import { IComic } from "types/IComic.type";
 import NextLink from "next/link";
-import { useRouter } from "next/router";
 
 interface Props {
     comic: IComic;
@@ -33,7 +32,7 @@ return (
         </Box>
         <CardActions>
             <NextLink href={`/comics/${comic.id}`}>
-                <Button>Ver detalle</Button>
+                <Button>Ver detalles</Button>
             </NextLink>
             <NextLink href={`/checkout?comic=${comic.id}`} >
             COMPRAR
