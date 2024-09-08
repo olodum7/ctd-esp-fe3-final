@@ -33,7 +33,7 @@ return (
         </Box>
         <CardActions>
             <NextLink href={`/comics/${comic.id}`}>
-                <Button>Ver detalles</Button>
+                <Button>Ver detalle</Button>
             </NextLink>
             <NextLink href={`/checkout?comic=${comic.id}`} >
             COMPRAR
