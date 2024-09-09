@@ -69,6 +69,7 @@ const CardSuccessCheckout: FC<CardSuccessCheckoutProps> = ({ data }) => {
               Dirección alternativa: {data?.customer.address.address2}
             </Typography>
           )}
+          <Typography paddingBottom={1}>Precio: ${data?.order.price}</Typography>
         </Box>
       </Stack>
     </Card>
